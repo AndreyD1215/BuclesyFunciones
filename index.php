@@ -55,4 +55,13 @@
     }
     echo("<br>........................................................................");
 
+    //arreglo muntidimensional (arreglo de arreglos)
+    $usuarios=array(
+        'usuario1'=>array('nombre'=>"Juan",'edad'=>30,'sexo'=>"M"),
+        'usuario2'=>array('nombre'=>"Maria",'edad'=>25,'sexo'=>"F"),
+        'usuario3'=>array('nombre'=>"James",'edad'=>28,'sexo'=>"M"),
+        'usuario4'=>array('nombre'=>"Sandra",'edad'=>32,'sexo'=>"F")
+    );
+
+
 ?>
